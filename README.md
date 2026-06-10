@@ -3,6 +3,8 @@
 Este projeto foi desenvolvido como parte da atividade **CP3 - CRUD e IA Generativa** da FIAP.  
 A aplicação é uma página web simples que simula um sistema de cadastro de filmes assistidos, com tela de login e operações de CRUD.
 
+Henrique Vieira Ferreira RM569586
+
 ---
 
 ## 🚀 Funcionalidades
