@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Filmes Assistidos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <div id="login">
+    <h2>Login</h2>
+    <input type="text" id="usuario" placeholder="Usuário">
+    <input type="password" id="senha" placeholder="Senha">
+    <button onclick="login()">Entrar</button>
+    <p id="erroLogin" class="erro"></p>
+  </div>
+
+  <div id="app" style="display:none;">
+    <h2>Meus Filmes Assistidos</h2>
+    <input type="text" id="novoItem" placeholder="Digite um filme">
+    <button onclick="adicionarFim()">Adicionar ao fim</button>
+    <button onclick="adicionarInicio()">Adicionar ao início</button>
+    <p id="erroItem" class="erro"></p>
+    <ul id="lista"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
